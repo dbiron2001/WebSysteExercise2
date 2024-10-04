@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./build/css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class= "text-slate-100 tracking-wider">   
+    <header class="justify-center px-5 py-5 md:py-10 md:px-10 bg-slate-800">
+        <nav class="flex flex-col md:flex-row justify-between w-full ">
+            <div>
+                <h2 class=" text-base sm:text-xl md:text-2xl">
+                    <a href="#" class="uppercase font-bold">Daniel Biron</a>
+                </h2>
+            </div>
+            <!-- <div>
+                <i class="fa-solid fa-bars px-4 cursor-pointer md:hidden"></i>
+            </div> -->
+            <ul class="flex flex-row justify-center items-center mt-4 md:mt-0 space-x-4 md:space-x-8">
+                <li class="transition-transform duration-300 hover:scale-125">
+                    <a href="#" class="wr-2">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="transition-transform duration-300 hover:scale-125">
+                    <a href="#about">
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="transition-transform duration-300 hover:scale-125">
+                    <a href="#contact">
+                        <span>Contact</span>
+                    </a>
+                </li>
+                <li class="transition-transform duration-300 hover:scale-125">
+                    <a href="#skill">
+                        <span>Skill</span>
+                    </a>
+                </li>
+                <li class="transition-transform duration-300 hover:scale-125">
+                    <a href="#">
+                        <span>Project</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header> <!-- END HEADER-->
+        
+    <main class="flex flex-col justify-center items-center w-full">  
+        <div class="relative flex justify-center items-center space-x-5 md:space-x-15 lg:space-x-20 bg-slate-800 w-full">
+            <div class="pl-4 animate-slide-in-left">
+                <span class=" text-sm md:text-6xl font-bold">I'm Daniel</span>
+                <span class="block font-medium font-sans text-4xs md:text-lg">BSCS 3rd year student</span>
+                <div class=" absolute pt-5 md:pt-10 transition-transform duration-300 hover:scale-125">
+                    <a href="#">
+                        <span class="text-4xs md:text-lg font-bold font-mono uppercase rounded px-1 py-1 md:px-5 md:py-2 bg-red-500">Love me, please</span>
+                    </a>
+                </div>
+            </div>
+            <div class="pr-4"> 
+                <img src="./build/Assets/Images/Daniel.png" alt="Daniel Padilla" class="object-fit md:object-cover w-40 h-72 md:w-auto md:h-auto animate-slide-in-right">
+            </div>
+        </div>
+
+        <div id="about" class="py-20 sm:py-28 flex flex-row justify-center items-center bg-slate-700 w-full"> <!-- START OF ABOUT ME -->
+            <div class="animate-slide-in-left">
+                <img src="./build/Assets/Images/Daniel2.png" alt="Daniel Padilla">
+            </div>
+            <div class="w-96 mr-5 animate-slide-in-right"> 
+                <span class="text-base md:text-4xl font-bold text-center block mb-10 md:mb-20">ABOUT ME</span>
+                <p class="text-wrap font-semibold font-sans text-xs md:text-lg">
+                    Hi, <span class="inline-block font-bold text-sm md:text-xl">I'm Daniel</span>, a third-year 
+                    <span class="inline-block font-bold text-sm md:text-xl">Computer Science</span> student with a passion for technology and problem-solving.
+                    I love diving into new challenges, whether it’s developing a sleek user interface or writing efficient code to solve complex problems. 
+                    I’m always eager to learn, grow, and contribute to projects that make a real impact. 
+                    Let’s <span class="inline-block font-bold text-sm md:text-xl">Connect and Create</span> something amazing together!
+                </p>
+            </div>
+        </div>
+
+        <div id="skill" class=" bg-slate-800 w-full flex flex-col justify-center items-center py-20 sm:py-28"> <!-- START OF SKILL -->
+            <div class="text-base md:text-4xl font-bold text-center block mb-10 md:mb-20">
+                <span>SKILL</span>
+            </div>
+            <div class="mb-4 w-48 md:w-96 animate-slide-in-left">
+                <div class="mb-2 flex justify-between">
+                  <span class="text-sm font-bold text-gray-400">HTML</span>
+                  <span class="text-sm font-medium text-gray-400">50%</span>
+                </div>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                  <div class="bg-blue-600 h-4 rounded-full w-1/2" ></div>
+                </div>
+            </div>
+            <div class="mb-4 w-48 md:w-96 animate-slide-in-right">
+                <div class="mb-2 flex justify-between">
+                  <span class="text-sm font-bold text-gray-400">CSS</span>
+                  <span class="text-sm font-medium text-gray-400">50%</span>
+                </div>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                  <div class="bg-blue-600 h-4 rounded-full w-1/2"></div>
+                </div>
+            </div>
+            <div class="mb-4 w-48 md:w-96 animate-slide-in-left">
+                <div class="mb-2 flex justify-between">
+                  <span class="text-sm font-bold text-gray-400">C</span>
+                  <span class="text-sm font-medium text-gray-400">80%</span>
+                </div>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                <div class="bg-blue-600 h-4 rounded-full w-3/4"></div>
+                </div>
+            </div>
+            <div class="mb-4 w-48 md:w-96 animate-slide-in-right">
+                <div class="mb-2 flex justify-between">
+                  <span class="text-sm font-bold text-gray-400">C++</span>
+                  <span class="text-sm font-medium text-gray-400">80%</span>
+                </div>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                  <div class="bg-blue-600 h-4 rounded-full w-4/5"></div>
+                </div>
+            </div>
+            <div class="mb-4 w-48 md:w-96 animate-slide-in-left">
+                <div class="mb-2 flex justify-between">
+                  <span class="text-sm font-bold text-gray-400">JAVA</span>
+                  <span class="text-sm font-medium text-gray-400">50%</span>
+                </div>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                  <div class="bg-blue-600 h-4 rounded-full w-1/2"></div>
+                </div>
+            </div>
+            <div class="mb-4 w-48 md:w-96 animate-slide-in-right">
+                <div class="mb-2 flex justify-between">
+                  <span class="text-sm font-bold text-gray-400">ASSEMBLY LANGUAGE</span>
+                  <span class="text-sm font-medium text-gray-400">75%</span>
+                </div>
+                <div class="w-full bg-gray-300 rounded-full h-4">
+                  <div class="bg-blue-600 h-4 rounded-full w-3/4"></div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="contact" class="py-5 flex flex-row justify-center items-center bg-slate-700 w-full gap-2 sm:gap-4"> <!-- START OF FOOTER -->
+        <div class="transition-transform duration-300 hover:scale-125">
+            <a href="https://www.facebook.com/profile.php?id=100008785142876">
+                <span class="text-xs sm:text-base font-bold">FACEBOOK</span>
+            </a>
+            <i class="ri-facebook-circle-fill"></i>
+        </div>
+        <div class="transition-transform duration-300 hover:scale-125">
+            <a href="https://www.instagram.com/imjust_dan/">
+                <span class="text-xs sm:text-base font-bold">INSTAGRAM</span>
+            </a>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="transition-transform duration-300 hover:scale-125">
+            <a href="mailto:danielbiron94@gmail.com">
+                <span class="text-xs sm:text-base font-bold">GMAIL</span>
+            </a>
+            <i class="fa-regular fa-envelope"></i>
+        </div>
+    </footer>
+        
+</body>
+</html>
